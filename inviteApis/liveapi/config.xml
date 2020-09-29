@@ -1,0 +1,7 @@
+<windowslivelogin>
+  <appid>[APP_ID]</appid>
+  <secret>[SECRET]</secret>
+  <securityalgorithm>wsignin1.0</securityalgorithm>
+  <returnurl>http://www.lugattj.com/inviteApis/liveapi/delauth-handler.php</returnurl>
+  <policyurl>http://www.lugattj.com/inviteApis/liveapi/policy.html</policyurl>
+</windowslivelogin>

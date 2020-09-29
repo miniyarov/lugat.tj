@@ -1,0 +1,22 @@
+	#tj_keyboard {
+		width:560px;	
+	}
+	#top {
+	padding-top: 10px;
+	}
+	#searchLittle {
+		margin-top: 10px;
+	}
+	#top_menu img {
+		margin-bottom: -8px !important;
+	}
+	#top_menu li {
+		line-height: 27px;
+	}
+	#translitToggle {
+		padding:0px;
+		margin-left: -150px;	
+	}
+	#closeX {
+		margin-right: 55px;
+	}

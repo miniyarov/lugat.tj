@@ -1,0 +1,29 @@
+#mailList {
+	border: 1px solid silver;
+	width:500px;
+	height: 400px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.email {
+	vertical-align: middle;
+	float:right;
+	width: 453px;
+	line-height: 25px;
+	cursor:pointer;
+	text-align: left;
+}
+.emailSpan {
+	border: 1px solid silver;
+	margin: 2px;
+	padding: 2px;
+	float:left;
+	width: 474px;
+	height: 25px;
+}
+input[type='checkbox'] {
+	width: 13px;
+	height: 13px;
+	float:left;
+	vertical-align: middle;
+}

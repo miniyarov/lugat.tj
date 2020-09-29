@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: #369;
+	font-family:"lucide grande",verdana,serif;
+}
+#mailList {
+	border: 1px solid silver;
+	width:500px;
+	height: 400px;
+	overflow: scroll;
+	overflow-x: hidden;
+	background-color: #eee;
+}
+.email {
+	font-size: 10pt;
+	vertical-align: middle;
+	float:left;
+	width: 448px;
+	line-height: 25px;
+	cursor:pointer;
+	text-align: left;
+	padding-left: 5px;
+	border-left: 1px solid silver;
+	font-weight: bold;
+}
+.emailSpan {
+	border: 1px solid silver;
+	margin: 2px;
+	padding: 2px;
+	float:left;
+	width: 474px;
+	height: 25px;
+	text-align: left;
+	background-color: white;
+}
+.checkbox {
+	margin: 3px;
+	width: 13px;
+	height: 13px;
+	float:left;
+	vertical-align: middle;
+}
+#formID {
+	width: 500px;
+	text-align: left;
+}
+.button {
+	float:left;
+	margin: 2px;
+	background-color: #5b74a8;
+	border-top: 1px solid #3b5998;
+	border-left: 1px solid #3b5998;
+	border-right: 2px solid #3b5998;
+	border-bottom: 2px solid #3b5998;
+	padding: 3px;
+	color:white;
+	font-weight: bold;
+}
+.button:active {
+	border-top: 2px solid #3b5998;
+	border-left: 2px solid #3b5998;
+	border-right: 1px solid #3b5998;
+	border-bottom: 1px solid #3b5998;
+}
+.linkText {
+	float:left;
+	text-decoration: none;
+}
+.linkText:visited {
+	color: #369;
+}

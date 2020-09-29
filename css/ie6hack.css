@@ -1,0 +1,28 @@
+	div.dialogBox {
+	left:0;
+	top:0;
+	margin-left:0;
+	margin-top:0;
+	position:absolute;
+	}
+	div.dialogBackground {
+		position:absolute;
+		}
+	#ie7div {
+		visibility: visible;
+		position:static;
+		color:navy;
+		border: 1px solid #369;
+		position:relative;
+		background-color:rgb(70%,80%,90%);
+	}
+	#ie7 ul {
+	list-style: none;
+	}
+	#ie7 li {
+	display:inline;
+	}
+	#ie7 li a {
+	display:inline;
+	color:blue;
+	}

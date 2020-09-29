@@ -1,0 +1,175 @@
+body {
+	background-color: #ddd;
+	font-family: tahoma,verdana,arial;
+	letter-spacing: .11em;
+	font-size: 10pt;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color:#0000ee;
+}
+h3 {
+	text-align: center;
+}
+#bodyID {
+	margin: 10px 10%;
+	padding: 5px;
+	border: 1px solid gray;
+	background-color: #eee;
+}
+#topmenu {
+	margin: 10px 10%;
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: #eee;
+	position: relative;
+}
+
+#topmenu h3 {
+	width: 50%;
+	text-align: left;
+}
+#menu {
+	list-style-type: none;
+	font-weight: bold;
+	padding: 0;
+	margin: 5px;
+	
+}
+#menu li {
+	display: inline;
+	
+}
+#menu a {
+	padding: 5px;
+	text-decoration: none;
+	cursor: pointer;
+	border: 1px solid gray;
+	
+}
+#menu a:hover {
+	background-color: silver;
+}
+
+#first_column {
+	width: 47%;
+	float: left;
+}
+#second_column {
+	width: 47%;
+	float: right;
+	margin-right: 20px;
+}
+#add_word {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 2px;
+	float:left;
+	width: 55%;
+}
+#stats {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 2px;
+	float:left;
+	width: 55%;
+}
+#submitted_words {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 2px;
+	float:left;
+	width: 90%;
+}
+#add_user {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 2px;
+	float:left;
+	width: 55%;	
+}
+#feedback_msg {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 2px;
+	float:left;
+	width: 98%;
+}
+#news {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 2px;
+	float:left;
+	width: 98%;
+}
+
+
+
+#clearer {
+	clear: both;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+#footer {
+	clear: both;
+	margin: 10px 10%;
+	padding: 10px;
+	background-color: #eee;
+	border: 1px solid gray;
+}
+#tj_keyboard {
+	margin-top:-1em;
+	margin-bottom:1em;
+	overflow: visible;
+	width: 400px;
+	z-index: 11;
+}
+
+#boardKey {
+	width:30px;
+	height:30px;
+	border: 0;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url(../../images/btn_a.png);
+}
+#boardKey:hover {
+	background-image: url(../../images/btn.png);
+}
+#boardKey:active {
+	background-image: url(../../images/btn_a.png);
+}
+
+#translit_warning {
+	margin: 5px 0px;
+	color: #369;
+	font-weight: bold;
+	width:70%;
+}
+#error {
+	font-weight: bold;
+	color: rgb(90%,20%,20%);
+	background-color: rgb(90%,70%,70%);
+	border: 1px solid red;
+	padding: 10px;
+}
+#error img {
+	padding-right: 15px;
+	height: inherit;
+}
+#success {
+	font-weight: bold;
+	color: green;
+	background-color: rgb(70%,90%,70%);
+	border: 1px solid green;
+	padding: 10px;
+}
+#success img {
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
